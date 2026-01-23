@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+.contact-form {
+    margin: 20px auto;
+    border: 3px solid green;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(20, 147, 20, 0.078);
+    justify-items: center;
+    }
+}
