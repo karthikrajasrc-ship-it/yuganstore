@@ -12,9 +12,8 @@
 .head {
     display: flex;
     justify-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 0px;
-
 }
 
 .head .logo {
@@ -26,7 +25,59 @@
     text-align: center;
 }
 .head .btn-nav a {
-    font-size: 18px;
+    display: none;
+}
+
+.toggle-btn {
+    display: block;
+    padding: 20px;
+}
+
+#togglebtn {
+        padding: 10px;
+        font-size: 23px;
+        letter-spacing: 3px;
+        background:none;
+        border: none;
+}
+
+.side-barxmark {
+    text-align: right;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+
+.sidenav-bar {
+    display: none;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    transition: transform 0.35s ease-in-out;
+}
+
+.sidenav-bar.show{
+    display: block;
+}
+
+
+.sidenav-links {
+    text-decoration: none;
+    margin-bottom: 30px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.sidenav-links-head {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px; 
 }
 
 .hero {
@@ -82,8 +133,9 @@
 }
 
 .main2-list {
+    margin: 10px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: bold;
     gap: 20px;
 }
 
@@ -93,6 +145,7 @@
 }
 
 .main2-list .Main2-mix {
+    font-weight: 600;
     margin-top: 3px;
     align-content: center;
     padding: 5px;
@@ -120,7 +173,7 @@
 }
 
 .footer-list img {
-    width: 50%;
+    width: 55%;
     box-shadow: 0px 20px 30px rgb(70, 70, 70);
 }
 
@@ -128,11 +181,15 @@
     font-size: 25px;
 }
 
+.spice-para {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
 .footer-list .main4-masala {
-    position: absolute;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 12px;
-    margin: 70px 200px 0px 0px;
 }
 
 .end {
@@ -169,6 +226,7 @@
 .para1 {
     font-size: 18px;
     font-weight: 500;
+
 }
 
 #about-header1 {
