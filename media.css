@@ -35,10 +35,11 @@
 
 #togglebtn {
         padding: 10px;
-        font-size: 23px;
+        font-size: 22px;
         letter-spacing: 3px;
         background:none;
         border: none;
+        color: black;
 }
 
 .side-barxmark {
@@ -111,8 +112,8 @@
 
 .main1 {
     display: flex;
-    margin: 30px 10px 10px 10px;
-    font-size: 12px;
+    margin: 40px 10px 10px 10px;
+    font-size: 13px;
     text-align:left;
     gap: 10px;
 }
@@ -125,7 +126,8 @@
 .main1 img {
     width: 50%;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
+    
 }
 
 .main2-title {
@@ -134,7 +136,7 @@
 
 .main2-list {
     margin: 10px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     gap: 20px;
 }
@@ -146,9 +148,7 @@
 
 .main2-list .Main2-mix {
     font-weight: 600;
-    margin-top: 3px;
     align-content: center;
-    padding: 5px;
 }
 
 .main3-no {
@@ -189,7 +189,7 @@
 
 .footer-list .main4-masala {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .end {
